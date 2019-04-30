@@ -7,8 +7,8 @@ import Footer from "../components/Footer";
 const Layout = props => (
   <div>
     <Head>
-      <link rel="icon" href="http://example.com/favicon.png" />
-      <title>Intercambiador de calor de placas</title>
+      <link rel="icon" href="../static/img/logo-lym.png" />
+      <title>Intercambiador de calor de placas | Muller</title>
       <meta
         name="viewport"
         content="initial-scale=1.0, width=device-width"
@@ -23,10 +23,6 @@ const Layout = props => (
       />
       <link rel="stylesheet" href="../static/css/main.css" />
       <link
-        rel="stylesheet"
-        href="https://lymmx-pruebas-rosa7-337309.dev.odoo.com/im_livechat/external_lib.css"
-      />
-      <link
         href="https://fonts.googleapis.com/css?family=Merriweather"
         rel="stylesheet"
       />
@@ -35,6 +31,10 @@ const Layout = props => (
         href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
         crossorigin="anonymous"
+      />
+      <link
+        rel="stylesheet"
+        href="https://lymmx.odoo.com/im_livechat/external_lib.css"
       />
     </Head>
     <Navbar />
@@ -57,11 +57,11 @@ const Layout = props => (
     />
     <script
       type="text/javascript"
-      src="https://lymmx-pruebas-rosa7-337309.dev.odoo.com/im_livechat/external_lib.js"
+      src="https://lymmx.odoo.com/im_livechat/external_lib.js"
     />
     <script
       type="text/javascript"
-      src="https://lymmx-pruebas-rosa7-337309.dev.odoo.com/im_livechat/loader/1"
+      src="https://lymmx.odoo.com/im_livechat/loader/2"
     />
   </div>
 );
